@@ -34,9 +34,9 @@
 // console.log(arr.join(" "));
 
 var str = " sara fatima numan";
-for(var i = 0; str.length; i++){
-    if(str.slice(i ,i + 5) == "fatima"){
-        str = str.slice(0,i) + "khan" + str.slice(i + 5)
+for(var i = 0;i < str.length; i++){
+    if(str.slice(i ,i + 6) == "fatima"){
+        str = str.slice(0,i) + "khan" + str.slice(i + 6)
         break;
     }
 }
